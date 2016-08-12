@@ -1,5 +1,9 @@
 <?php include('header.php'); ?>
 
+<?php //echo do_shortcode( '[dm-login-form]' ); ?>
+
+
+
 <div class="container">
 	<div class="row">
 		<div class="col-md-10 col-md-offset-1 main-wrapper" >
@@ -9,12 +13,14 @@
 				}
 			?>
 			<div class="log-wrapper">
+			
 			<div class="col-md-12 lcol-md-12 nopadding">
 				<div class="alert alerta">
 				  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 				  <strong><a href="#" data-dismiss="alert" aria-label="close"><span><img class="cross" src="<?php echo IMG; ?>/close.png" width="30"></span></a> &nbsp;ERROR!</strong> <?php echo $error_messages."Incorrect Username or Password"; ?>
 				</div>
 			</div>
+
 			<div class="wrap">
 				<div class="col-md-6 nopadding">
 					<img src="<?php echo IMG; ?>/sertoneImg-new.png" class="img-responsive mimg">
@@ -46,6 +52,8 @@
 		</div>
 	</div>
 </div>
+
+
 
 
 

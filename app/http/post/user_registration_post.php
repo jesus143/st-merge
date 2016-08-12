@@ -9,33 +9,41 @@ if (isset($_POST['create_user'])) {
 
 if(!empty($_SESSION['create_user'])) {
     add_action('wp_head','console_create_user');
-
 }
 
 function console_create_user() {
 
     if (!empty($_SESSION['create_user'])) {
 
-        print "<br> This is best";
-
         $_SESSION['response']['add_user']['status']  = false;
+
+
         $api_instance_createuser = new Swagger\Client\Api\UsersApi();
+
         // $username = $_POST['username'];
         // $password = $_POST['password'];
         // $password_confirm = $_POST['confirm_password'];
+
         $username	 	  = $_SESSION['username'];
         $password 		  = $_SESSION['password'];
         $confirm_password = $_SESSION['confirm_password'];
+
         //echo "user " . $username;
         // $isUserExist = false;
         try {
             $isExistUser = $api_instance_createuser->getUsersByName($username);
             //aq zibnecho "<br>exist ang user";
             $isUserExist = true;
+
         } catch (Exception $e) {
+
             //echo "<br>not exist ang user";
             $isUserExist = false;
+
         }
+
+
+
         if($confirm_password != $password )
         {
             //echo "<h3 class='text-center'> password not equal </h3>";
@@ -54,6 +62,7 @@ function console_create_user() {
         }
         else
         {
+
             $bodys = array(
                 "email" => $username,
                 "password" => $password
@@ -80,10 +89,10 @@ function console_create_user() {
             }
         }
 
-                echo "<pre>";
-                print_r($_SESSION['response']);
-                echo "</pre>";
-                //exit;
+        //        echo "<pre>";
+        //        print_r($_SESSION['response']);
+        //        echo "</pre>";
+        //        //exit;
 
         unset($_SESSION['username']);
         unset($_SESSION['password']);

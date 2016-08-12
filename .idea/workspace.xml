@@ -1,199 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76cedc6e-01a9-4c43-b55b-833032526c4b" name="Default" comment="wk">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/http/get/application_detail_get.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/http/get/console_add_sensor_get.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/http/get/device_info_abp_get.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/http/get/device_info_otaa_get.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/http/post/gate_way_add_post.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/http/post/user_login_post.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/http/post/user_registration_post.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/include_footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/include_header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/sertone-application-detail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/sertone-device-info-abp.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/sertone-device-info-otaa.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/page_sensor.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/docs/Api/ApplicationsApi.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/docs/Api/DataCollsApi.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/docs/Api/GatewaysApi.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/docs/Api/NodesApi.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/docs/Api/UsersApi.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/docs/Api/updates.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/docs/Model/Applications.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/docs/Model/DataCollections.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/docs/Model/Gateways.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/docs/Model/Nodes.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/docs/Model/Tokens.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/docs/Model/Users.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/git_push.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/lib/Api/ApplicationsApi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/lib/Api/DataCollsApi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/lib/Api/GatewaysApi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/lib/Api/NodesApi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/lib/Api/UsersApi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/lib/ApiClient.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/lib/ApiException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/lib/Configuration.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/lib/Model/Applications.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/lib/Model/DataCollections.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/lib/Model/Gateways.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/lib/Model/Nodes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/lib/Model/Tokens.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/lib/Model/Users.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/lib/ObjectSerializer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/test/Api/ApplicationsApiTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/test/Api/DataCollsApiTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/test/Api/GatewaysApiTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/test/Api/NodesApiTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/test/Api/UsersApiTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/test/Model/ApplicationsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/test/Model/DataCollectionsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/test/Model/GatewaysTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/test/Model/NodesTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/test/Model/TokensTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php-old/test/Model/UsersTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/docs/Api/ApplicationsApi.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/docs/Api/CustomersApi.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/docs/Api/DataCollsApi.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/docs/Api/GatewaysApi.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/docs/Api/NodesApi.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/docs/Api/UsersApi.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/docs/Model/Applications.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/docs/Model/Customers.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/docs/Model/DataCollections.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/docs/Model/Gateways.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/docs/Model/NodeInfo.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/docs/Model/Nodes.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/docs/Model/Tokens.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/docs/Model/Users.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/git_push.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/lib/Api/ApplicationsApi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/lib/Api/CustomersApi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/lib/Api/DataCollsApi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/lib/Api/GatewaysApi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/lib/Api/NodesApi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/lib/Api/UsersApi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/lib/ApiClient.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/lib/ApiException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/lib/Configuration.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/lib/Model/Applications.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/lib/Model/Customers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/lib/Model/DataCollections.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/lib/Model/Gateways.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/lib/Model/NodeInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/lib/Model/Nodes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/lib/Model/Tokens.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/lib/Model/Users.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/lib/ObjectSerializer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/test/Api/ApplicationsApiTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/test/Api/CustomersApiTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/test/Api/DataCollsApiTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/test/Api/GatewaysApiTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/test/Api/NodesApiTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/test/Api/UsersApiTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/test/Model/ApplicationsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/test/Model/CustomersTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/test/Model/DataCollectionsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/test/Model/GatewaysTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/test/Model/NodeInfoTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/test/Model/NodesTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/test/Model/TokensTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php2/test/Model/UsersTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/docs/Api/ApplicationsApi.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/docs/Api/CustomersApi.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/docs/Api/DataCollsApi.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/docs/Api/GatewaysApi.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/docs/Api/NodesApi.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/docs/Api/UsersApi.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/docs/Model/Applications.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/docs/Model/Customers.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/docs/Model/DataCollections.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/docs/Model/Gateways.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/docs/Model/Nodes.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/docs/Model/Tokens.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/docs/Model/Users.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/git_push.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/lib/Api/ApplicationsApi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/lib/Api/CustomersApi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/lib/Api/DataCollsApi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/lib/Api/GatewaysApi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/lib/Api/NodesApi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/lib/Api/UsersApi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/lib/ApiClient.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/lib/ApiException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/lib/Configuration.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/lib/Model/Applications.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/lib/Model/Customers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/lib/Model/DataCollections.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/lib/Model/Gateways.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/lib/Model/Nodes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/lib/Model/Tokens.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/lib/Model/Users.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/lib/ObjectSerializer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/test/Api/ApplicationsApiTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/test/Api/CustomersApiTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/test/Api/DataCollsApiTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/test/Api/GatewaysApiTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/test/Api/NodesApiTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/test/Api/UsersApiTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/test/Model/ApplicationsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/test/Model/CustomersTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/test/Model/DataCollectionsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/test/Model/GatewaysTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/test/Model/NodesTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/test/Model/TokensTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php3/test/Model/UsersTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/sdk.20160629.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/sdk.20160704.tar.gz" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/configuration.php" afterPath="$PROJECT_DIR$/config/configuration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helper.php" afterPath="$PROJECT_DIR$/helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php/README.md" afterPath="$PROJECT_DIR$/inc/SwaggerClient-php/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php/docs/Api/ApplicationsApi.md" afterPath="$PROJECT_DIR$/inc/SwaggerClient-php/docs/Api/ApplicationsApi.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php/docs/Api/CustomersApi.md" afterPath="$PROJECT_DIR$/inc/SwaggerClient-php/docs/Api/CustomersApi.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php/docs/Api/DataCollsApi.md" afterPath="$PROJECT_DIR$/inc/SwaggerClient-php/docs/Api/DataCollsApi.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php/docs/Api/GatewaysApi.md" afterPath="$PROJECT_DIR$/inc/SwaggerClient-php/docs/Api/GatewaysApi.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php/docs/Api/NodesApi.md" afterPath="$PROJECT_DIR$/inc/SwaggerClient-php/docs/Api/NodesApi.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php/docs/Api/UsersApi.md" afterPath="$PROJECT_DIR$/inc/SwaggerClient-php/docs/Api/UsersApi.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php/lib/Api/ApplicationsApi.php" afterPath="$PROJECT_DIR$/inc/SwaggerClient-php/lib/Api/ApplicationsApi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php/lib/Api/CustomersApi.php" afterPath="$PROJECT_DIR$/inc/SwaggerClient-php/lib/Api/CustomersApi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php/lib/Api/DataCollsApi.php" afterPath="$PROJECT_DIR$/inc/SwaggerClient-php/lib/Api/DataCollsApi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php/lib/Api/GatewaysApi.php" afterPath="$PROJECT_DIR$/inc/SwaggerClient-php/lib/Api/GatewaysApi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php/lib/Api/NodesApi.php" afterPath="$PROJECT_DIR$/inc/SwaggerClient-php/lib/Api/NodesApi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php/lib/Api/UsersApi.php" afterPath="$PROJECT_DIR$/inc/SwaggerClient-php/lib/Api/UsersApi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/SwaggerClient-php/lib/Configuration.php" afterPath="$PROJECT_DIR$/inc/SwaggerClient-php/lib/Configuration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/custom_jquery.js" afterPath="$PROJECT_DIR$/public/js/custom_jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sertone-functions.php" afterPath="$PROJECT_DIR$/sertone-functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sertone-index.php" afterPath="$PROJECT_DIR$/sertone-index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/header.php" afterPath="$PROJECT_DIR$/templates/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.php" afterPath="$PROJECT_DIR$/templates/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sertone-add-application.php" afterPath="$PROJECT_DIR$/templates/sertone-add-application.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sertone-add-dashboard.php" afterPath="$PROJECT_DIR$/templates/sertone-add-dashboard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sertone-add-gateway.php" afterPath="$PROJECT_DIR$/templates/sertone-add-gateway.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sertone-add-registration.php" afterPath="$PROJECT_DIR$/templates/sertone-add-registration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/sertone-add-sensor.php" afterPath="$PROJECT_DIR$/templates/sertone-add-sensor.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/http/post/application.php" afterPath="$PROJECT_DIR$/app/http/post/application_post.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/http/post/sensor.php" afterPath="$PROJECT_DIR$/app/http/post/sensor_post.php" />
-    </list>
+    <list default="true" id="76cedc6e-01a9-4c43-b55b-833032526c4b" name="Default" comment="wk" />
     <ignored path="console-system.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -214,97 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sertone-functions.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sertone-functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sertone-functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.269231">
-              <caret line="222" column="0" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GatewaysApi.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/SwaggerClient-php/lib/Api/GatewaysApi.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5384617">
-              <caret line="115" column="20" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gate_way_add_post.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/http/post/gate_way_add_post.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.4150944">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sensor_post.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/http/post/sensor_post.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5">
-              <caret line="81" column="131" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="131" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom_jquery.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/custom_jquery.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sertone-add-gateway.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/sertone-add-gateway.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36363637">
-              <caret line="186" column="44" selection-start-line="186" selection-start-column="44" selection-end-line="186" selection-end-column="44" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#1660#2350#0#PHP" expanded="false" />
-                <element signature="e#2407#4148#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sertone-add-dashboard.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/sertone-add-dashboard.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846">
-              <caret line="160" column="91" selection-start-line="160" selection-start-column="91" selection-end-line="160" selection-end-column="91" />
-              <folding>
-                <marker date="1470237205199" expanded="true" signature="7816:7825" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="configuration.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/configuration.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9622642">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mystyle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/bootstrap/css/mystyle.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.773585">
-              <caret line="194" column="16" selection-start-line="194" selection-start-column="16" selection-end-line="194" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.42595977">
+              <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -318,6 +40,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/templates/console-functions.php" />
         <option value="$PROJECT_DIR$/templates/sidebar.php" />
         <option value="$PROJECT_DIR$/templates/old/header.php" />
         <option value="$PROJECT_DIR$/templates/old/page-dashboard.php" />
@@ -336,6 +59,7 @@
         <option value="$PROJECT_DIR$/inc/SwaggerClient-php/lib/Api/ApplicationsApi.php" />
         <option value="$PROJECT_DIR$/view/page_sensor.php" />
         <option value="$PROJECT_DIR$/app/http/get/application_get.php" />
+        <option value="$PROJECT_DIR$/templates/sertone-add-dashboard.php" />
         <option value="$PROJECT_DIR$/app/http/post/application_post.php" />
         <option value="$PROJECT_DIR$/templates/sertone-add-application.php" />
         <option value="$PROJECT_DIR$/templates/sertone_device_info_otaa.php" />
@@ -351,24 +75,20 @@
         <option value="$PROJECT_DIR$/app/http/get/sensor_add_get.php" />
         <option value="$PROJECT_DIR$/app/http/post/sensor_post.php" />
         <option value="$PROJECT_DIR$/sertone-index.php" />
+        <option value="$PROJECT_DIR$/app/http/post/user_registration_post.php" />
         <option value="$PROJECT_DIR$/templates/sertone-add-registration.php" />
+        <option value="$PROJECT_DIR$/sertone-functions.php" />
         <option value="$PROJECT_DIR$/app/http/get/console_add_sensor_get.php" />
         <option value="$PROJECT_DIR$/app/http/get/device_info_abp_get.php" />
         <option value="$PROJECT_DIR$/app/http/get/device_info_otaa_get.php" />
+        <option value="$PROJECT_DIR$/config/configuration.php" />
         <option value="$PROJECT_DIR$/templates/index.php" />
         <option value="$PROJECT_DIR$/app/http/get/application_detail_get.php" />
         <option value="$PROJECT_DIR$/templates/sertone-application-detail.php" />
         <option value="$PROJECT_DIR$/templates/sertone-add-sensor.php" />
+        <option value="$PROJECT_DIR$/public/js/custom_jquery.js" />
         <option value="$PROJECT_DIR$/templates/sertone-device-info-abp.php" />
         <option value="$PROJECT_DIR$/templates/sertone-device-info-otaa.php" />
-        <option value="$PROJECT_DIR$/app/http/post/user_registration_post.php" />
-        <option value="$PROJECT_DIR$/app/http/post/user_login_post.php" />
-        <option value="$PROJECT_DIR$/public/js/custom_jquery.js" />
-        <option value="$PROJECT_DIR$/sertone-functions.php" />
-        <option value="$PROJECT_DIR$/config/configuration.php" />
-        <option value="$PROJECT_DIR$/app/http/post/gate_way_add_post.php" />
-        <option value="$PROJECT_DIR$/templates/sertone-add-dashboard.php" />
-        <option value="$PROJECT_DIR$/templates/sertone-add-gateway.php" />
       </list>
     </option>
   </component>
@@ -382,9 +102,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="width" value="1315" />
-    <option name="height" value="784" />
+    <option name="x" value="480" />
+    <option name="width" value="865" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -411,6 +131,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -425,82 +147,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="console-system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="console-system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="console-system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="console-system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="console-system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="console-system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="console-system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="post" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="console-system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="console-system" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="http" />
+              <option name="myItemId" value="console-plugin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -508,16 +160,16 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistoryKey" value="confi&#9;FILE&#9;file://E:/xampp/htdocs/pcoupe/local-dev/wordpress/wp-content/plugins/console-system/config/configuration.php&#10;application&#9;FILE&#9;file://E:/xampp/htdocs/pcoupe/local-dev/wordpress/wp-content/plugins/console-system/app/http/get/application_detail_get.php&#10;add-re&#9;FILE&#9;file://E:/xampp/htdocs/pcoupe/local-dev/wordpress/wp-content/plugins/console-system/templates/sertone-add-registration.php&#10;ApiClient.php&#9;FILE&#9;file://E:/xampp/htdocs/wp-content/plugins/console-system/inc/SwaggerClient-php/SwaggerClient-php/lib/ApiClient.php&#10;ApiClient.php &#9;FILE&#9;file://E:/xampp/htdocs/wp-content/plugins/console-system/inc/SwaggerClient-php/lib/ApiClient.php" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Tim/app.thesmsfacademy.com.au/developer/wordpress/wp-content/plugins/bgl360-desktop-integration" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../local-dev/wordpress/wp-content/plugins" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\wp-content\plugins\console-system\templates" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\xampp\htdocs\wp-content\plugins\console-system\templates" />
       <recent name="E:\xampp\htdocs\wp-content\plugins\console-system\app\http\get" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\xampp\htdocs\wp-content\plugins\console-system\templates" />
     </key>
   </component>
   <component name="RunManager" selected="PHP Script.order_application.php">
@@ -575,10 +227,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="0" width="1315" height="784" extended-state="0" />
+    <frame x="480" y="0" width="865" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2317167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45111898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -637,28 +289,32 @@
     <entry file="file://$PROJECT_DIR$/templates/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="78" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/sertone-device-info-otaa.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="60" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/sertone-device-info-abp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+          <caret line="76" column="83" selection-start-line="76" selection-start-column="83" selection-end-line="76" selection-end-column="83" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/configuration.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="28" />
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -666,6 +322,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -673,6 +330,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/http/get/application_detail_get.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#8#40#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="78" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sertone-device-info-otaa.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sertone-device-info-abp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/http/get/device_info_otaa_get.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/http/get/device_info_abp_get.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -680,6 +396,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <element signature="e#8#40#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -687,6 +406,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -694,6 +414,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -701,6 +422,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -708,6 +430,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -715,6 +438,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -722,6 +446,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -781,6 +506,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/sertone-add-dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03057554">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/console-functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.02972028">
@@ -809,6 +541,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sertone-index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.038462">
+          <caret line="341" column="90" selection-start-line="341" selection-start-column="90" selection-end-line="341" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/sertone-add-registration.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.7832168">
@@ -830,6 +569,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/http/post/sensor_post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6538463">
+          <caret line="73" column="136" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/http/post/user_registration_post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.153846">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/view/page_sensor.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.99125874">
@@ -841,20 +594,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/http/get/device_info_otaa_get.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17832167">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/http/get/application_detail_get.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+          <folding>
+            <element signature="e#8#40#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -862,63 +636,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sertone-device-info-abp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.2587411">
-          <caret line="76" column="83" selection-start-line="76" selection-start-column="83" selection-end-line="76" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sertone-device-info-otaa.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7132867">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0699301">
-          <caret line="36" column="78" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/sertone-add-sensor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02972028">
+        <state vertical-scroll-proportion="0.0">
           <caret line="62" column="50" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sertone-index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3426573">
-          <caret line="343" column="0" selection-start-line="343" selection-start-column="0" selection-end-line="343" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/http/post/user_registration_post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3588436">
-          <caret line="83" column="47" selection-start-line="83" selection-start-column="47" selection-end-line="83" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/SwaggerClient-php/lib/Api/UsersApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.028911564">
-          <caret line="605" column="20" selection-start-line="605" selection-start-column="20" selection-end-line="605" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/http/post/user_login_post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.335034">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -926,86 +651,32 @@
     <entry file="file://$PROJECT_DIR$/public/js/custom_jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/style.css">
+    <entry file="file://$PROJECT_DIR$/templates/sertone-device-info-abp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="76" column="83" selection-start-line="76" selection-start-column="83" selection-end-line="76" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/bootstrap/css/mystyle.css">
+    <entry file="file://$PROJECT_DIR$/templates/sertone-device-info-otaa.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.773585">
-          <caret line="194" column="16" selection-start-line="194" selection-start-column="16" selection-end-line="194" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/http/post/sensor_post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5">
-          <caret line="81" column="131" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="131" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/SwaggerClient-php/lib/Api/GatewaysApi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5384617">
-          <caret line="115" column="20" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
+        <state vertical-scroll-proportion="1.0365853">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sertone-functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.269231">
-          <caret line="222" column="0" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.42595977">
+          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9622642">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/http/post/gate_way_add_post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.4150944">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sertone-add-dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846">
-          <caret line="160" column="91" selection-start-line="160" selection-start-column="91" selection-end-line="160" selection-end-column="91" />
-          <folding>
-            <marker date="1470237205199" expanded="true" signature="7816:7825" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/sertone-add-gateway.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36363637">
-          <caret line="186" column="44" selection-start-line="186" selection-start-column="44" selection-end-line="186" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#1660#2350#0#PHP" expanded="false" />
-            <element signature="e#2407#4148#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

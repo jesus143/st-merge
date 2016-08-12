@@ -1,6 +1,9 @@
 <?php
 
+if(!function_exists('pr')){function pr($arr, $die = 0){ echo "<pre>";print_r($arr);echo ($die)?die():"</pre>";}}
+
 function sertone_covertApplicationTo2DArray($object) {
+
     $dataArray = [];
     foreach($object as $key1 => $value) {
         $dataArray[$key1]['id']          = $value['id'];
@@ -10,11 +13,13 @@ function sertone_covertApplicationTo2DArray($object) {
         $dataArray[$key1]['access_keys'] = $value['access_keys'];
         $dataArray[$key1]['valid']       = $value['valid'];
     }
+    
     return  $dataArray;
+
 }
 
 
-function sertone_orderAppDescAsc($type='id', $order='desc', $dataArray) {
+function sertone_orderAppDescAsc( $type='id', $order='desc', $dataArray ) {
 
         $sorting = '';
 

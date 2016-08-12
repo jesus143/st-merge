@@ -31,8 +31,6 @@ if ( ! defined( 'SERTONE_PLUGIN_URL' ) )
 require_once('config/configuration.php');
 require_once('helper.php');
 
-
-
 function on_sertone_activate() {
 
     //page to be created when install
@@ -58,7 +56,7 @@ function on_sertone_activate() {
         }
 
 
-        $slug = "sertone-".seoUrlsertone(strtolower($page));
+        $slug = "sertone-" . seoUrlsertone( strtolower( $page ) );
 
         $postID = $wpdb->get_var("SELECT ID FROM $wpdb->posts WHERE post_name='$slug'");
 
@@ -105,18 +103,13 @@ function on_sertone_activate() {
 register_activation_hook( __FILE__, 'on_sertone_activate' );
 
 
-add_filter( 'template_include', 'template_loader_sertone');
-
-
-
-
 $console_sys_url = [
     'sertone-add-gateway',
     'sertone-add-application',
 ];
 
 
-
+add_filter( 'template_include', 'template_loader_sertone');
 
 function template_loader_sertone( $template ) {
 
@@ -153,7 +146,7 @@ function template_loader_sertone( $template ) {
 
     }
 
-    if(is_page('sertone-add-registration')){
+    if( is_page( 'sertone-add-registration' ) ){
 
         $new_template = SERTONE_BASE_DIR.'/templates/sertone-add-registration.php';
 
@@ -164,7 +157,7 @@ function template_loader_sertone( $template ) {
 
     }
 
-    if(is_page('sertone-log-in')){
+    if( is_page('sertone-log-in') ){
 
         $new_template = SERTONE_BASE_DIR.'/templates/index.php';
 
@@ -205,7 +198,7 @@ function template_loader_sertone( $template ) {
         exit;
     }
 
-    if(is_page('sertone-device-info-otaa')){
+    if( is_page('sertone-device-info-otaa') ){
 
         $new_template = SERTONE_BASE_DIR.'/templates/sertone-device-info-otaa.php';
 
@@ -214,6 +207,7 @@ function template_loader_sertone( $template ) {
         }
         exit;
     }
+
 //    if(is_page('sertone-add-sensor')) {
 //        $new_template = SERTONE_BASE_DIR.'/templates/sertone-add-sensor.php';
 //
@@ -258,10 +252,12 @@ $console_sys_url = [
 //}
 //if(csys_is_local() == true) {
     add_action('init', 'csys_init_method');
-    //function csys_init_method() {
-        wp_deregister_script( 'jquery' );
-        wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js');
-  //  }
+    function csys_init_method() {
+        if(! is_admin() ){
+            wp_deregister_script( 'jquery' );
+            wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js');
+        }
+    }
 //}
 
 
@@ -339,5 +335,4 @@ function csys_enqueue_style(){
  * @TODO make all the pages added recently to be auto generated when the plugin is activated
  * Quetions: saan makita ang database table sa sensor saving
  * @TODO change naming convention for pages and title so that it will look uniform
- * @Todo add error log file this is for all the error that will be listed in the execution
  */
