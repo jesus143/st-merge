@@ -1,0 +1,240 @@
+.container{
+}
+.log-wrapper{
+	padding: 20px;
+	overflow: hidden;
+	background: #f1f4f7;
+}
+.alerta{
+	background: #f9243f;
+	color: #fff;
+	border: none;
+	display: none;
+}
+.cross{
+	margin-top: -2px;
+}
+.close{
+	opacity: 100;
+	color:#fff;
+}
+.wrap{
+	clear: both;
+	overflow: hidden;
+	background: #fff;
+	border:0px;
+}
+form{
+	background: #fff;
+	padding: 15px;
+}
+.mbtn{
+	background: #30a5ff;
+	border: 0px;
+	color: #fff;
+}
+.main-wrapper{
+	margin-top: 10%;
+}
+.mimg{
+	width: 100% !important;
+}
+
+/*style for dashboard*/
+.dash-rigth{
+	background: #f1f4f7;
+}
+.nopadding{
+	padding: 0px !important
+}
+
+.nav-pills > li > a{
+	border-radius: 0px;
+}
+
+.current_page_item{
+	background-color: #30a5ff !important;\
+	
+}
+.current_page_item a{
+	color: #fff !important; 
+}
+.table-wrap{
+	margin-top: 30px;
+}
+.table-wrap-head{
+	border-radius: 5px 5px 0px 0px;
+	clear: both;
+	background: #2d9df3;
+	padding: 1px 5px 1px 5px;
+	color: #fff;
+}
+.table-container{
+	background: #fff;
+	border-radius: 0px 0px 5px 5px;
+	overflow: hidden;
+}
+
+table{
+	color: #686f75;
+	margin-top: 12px;
+	border-radius: 7px;
+}
+table th{
+	background: #f7f7f8;
+
+}
+.dash-right-wrapper{
+	padding-top: 12px;
+	padding-bottom: 12px;	
+}
+.dash-main-header{
+	color: #686f75;
+	border-top: 1px solid #e8ebf0;
+	border-bottom: 1px solid #e8ebf0;
+	height: 46px;
+}
+.dash-rigth.dash-main-header{
+	padding: 10px !important;
+	
+	background-color: #e9ecf2;
+}
+
+/*style for application*/
+.table-wrap form{
+	background: #F1F4F7;
+}
+.application form input[name='applcation_name']{
+    border: 1px solid #dedede !important;
+    max-width: 304px;
+    padding: 6px;
+    width: 100%;
+
+}
+
+.application form input[name='add_application']{
+   background: #90caf9 none repeat scroll 0 0 !important;
+    border: medium none;
+    color: #000 !important;
+    padding: 7px 33px;
+    float: left;
+}
+
+/*style for gateway*/
+
+.box{
+	background-color: #fff;
+	padding:1px 12px;
+	border:1px solid #000;
+}
+.under-box{
+	margin-top: 12px;
+}
+.line{
+	border-top: 1px solid #dedede;
+	padding: 4px 0px 10px 0px;
+	clear: both;
+}
+
+/*gurmeets container*/
+
+.gurmeet .table-container{
+	border:1px solid #2D9DF3;
+}
+.logout {
+    float: right;
+    background: #2d9df3;
+    
+    padding: 5px 21px;
+    border-radius: 6px;
+}
+.logout a{
+	color: #fff;
+	text-decoration: none;
+}
+.logout:hover{
+	 background: #fff;
+}
+
+
+.page_item:hover{
+	background: #EEEEEE;
+}
+.page_item {
+    border-radius: 3px 0 0 3px;
+    list-style: outside none none;
+    padding: 9px 21px;
+}
+.page_item a{
+	text-decoration: none;
+	color: #686F75;
+}
+.active{
+	background: #2D9DF3;
+}
+.active a{
+	color: #fff;
+} 
+body{
+	background: #ffffff !important;
+	margin: 0px;
+	padding: 0px;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"]{
+	background: #30A5FF;
+}
+
+
+.tab-number .circle{
+    border: 3px solid #006bd7;
+    border-radius: 50%;
+    color: red;
+    height: 80px;
+    margin: 0 auto;
+    padding: 18px;
+    width: 80px;
+}
+.tab-wrapper h4{
+	color: #000085;
+}
+.fw.nopadding{
+	overflow: hidden;
+}
+.form-wrapper h4, .form-wrapper h3{
+	color: #000085;
+}
+
+.form-wrapper {
+    margin: 0 auto;
+    width: 92%;
+}
+
+.form-wrapper h4 {
+    margin: 30px 0 !important;
+}
+.gateway form{
+	background: #fff;
+}
+.gateway .fw{
+	background: #fff;
+}
+.active-form{
+	display: block;
+}
+
+.nomargin{
+	margin: 0px !important;
+}
+.fomrs .col-md-5 > input {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #000085;
+    height: 45px;
+    width: 100%;
+}
+h2.success{
+	color: green !important;
+}
+input[name='eui']{
+	margin: 0px !important;
+	padding: 0px !important;
+}
